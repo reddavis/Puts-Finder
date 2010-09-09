@@ -18,7 +18,7 @@ module PutsFinder
       end
     end
 
-    # ZOMG!
+    # ZOMG! Not that you'd ever use this
     def rewrite_puts
       Object.class_eval do
         def puts(message)
